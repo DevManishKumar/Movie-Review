@@ -1,0 +1,82 @@
+.App{
+    text-align: center;
+    background-color: white;
+}
+
+.header{
+    width: 100%;
+    background-color:rgb(190, 73, 0);
+    color: #ffffff;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #2f1f08;
+}
+
+.movie {
+    background-color: #a04600;
+    color: white;
+    border: 1px solid gray;
+    font-weight: bold;
+    text-align: start;
+    max-height: 100%;
+    width: 200px;
+    margin: 10px 10px;
+    border: 2px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+ .movie{
+    width: 300px;
+ }
+}
+.movie img {
+    width: 100%;
+    height: 250px;
+}
+
+.text-pad-10{
+    padding: 5px 10px;
+}
+
+.footer {
+    width: 100%;
+    background: #000;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+
+
+.useState {
+    background: #a5ff70;
+    height: 80vh;
+    padding: 20px;
+}
+
+.useState h1 {
+    color: rgb(113, 67, 118);
+}
+
+.buttom-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttom-2 button {
+    color: white;
+    background: #d25656;
+}
